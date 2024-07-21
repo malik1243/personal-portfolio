@@ -1,0 +1,39 @@
+@media only screen and (min-width: 576px) {
+    #Contact{
+        position: relative;
+        top: 50px;
+    }
+    .text{
+        width: 50%;
+    }
+    #Projects{
+        flex-direction: column;
+        gap: 10px;
+    }           
+    .the-box1{
+        width: 80%;
+        position: relative;
+        left: 25px;
+    }
+    .Contact a{
+        border: none;
+        /* display: none; */
+    }
+    
+    .btn a input{
+        display: none;
+    }
+    .About a{
+        width: 0px;
+        padding: 0px;
+        height: 0px;
+        margin: 0px;
+        border: none ;
+        /* display: none; */
+    }
+    .Home a{
+        position:none;
+        border: none;
+        
+    }
+}
