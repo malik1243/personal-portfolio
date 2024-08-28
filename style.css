@@ -151,7 +151,7 @@ body{
     margin: 25px;
 }
   
-@media only screen and (min-width: 576px){
+@media (min-width : 200px) and (max-width:900px) {
     .Home{
         display: block;
     }
@@ -160,11 +160,3 @@ body{
     }
 }
 
-@media only screen and (min-width: 768px){
-    .Home{
-        display: block;
-    }
-    #Projects{
-        display: block;
-    }
-}
